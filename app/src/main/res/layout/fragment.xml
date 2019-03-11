@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="isc.crsc.com.mytestcase.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textViewmain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_sdk" />
+
+    <Button
+        android:id="@+id/btnScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewmain1"
+        android:layout_below="@+id/textViewmain1"
+        android:layout_marginTop="16dp"
+        android:text="ScreenTest" />
+
+    <Button
+        android:id="@+id/btnTouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnScreen"
+        android:layout_below="@+id/btnScreen"
+        android:text="TouchTest" />
+
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnTouch"
+        android:layout_below="@+id/btnTouch"
+        android:text="LightTest" />
+
+    <Button
+        android:id="@+id/btnHorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnLight"
+        android:layout_below="@+id/btnLight"
+        android:text="HornTest" />
+
+    <Button
+        android:id="@+id/btnVolumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHorn"
+        android:layout_below="@+id/btnHorn"
+        android:text="VolumnTest" />
+
+    <Button
+        android:id="@+id/btnKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnVolumn"
+        android:layout_below="@+id/btnVolumn"
+        android:text="KeyTest" />
+
+    <Button
+        android:id="@+id/btnMike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnKey"
+        android:layout_below="@+id/btnKey"
+        android:text="MikeTest" />
+    <Button
+        android:id="@+id/btnUsb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMike"
+        android:layout_below="@+id/btnMike"
+        android:text="UsbTest" />
+
+</RelativeLayout>

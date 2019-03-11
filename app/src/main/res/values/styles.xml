@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">#4086F4</item>
+    </style>
+
+</resources>
